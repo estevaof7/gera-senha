@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <section class="container">
+        <h1>Gerador de senhas</h1>
+        <div class="retorno">Selecione as opções</div>
+        <form action="#" target=“_blank”>
+            <div>
+                <label>Quantidade de caracteres</label>
+                <input value="10" type="number" min="1" max="50" id="quantidade">
+            </div>
+            <div>
+                <label>Números</label>
+                <input type="checkbox" id="numero">
+            </div>
+            <div>
+                <label>Letras maiúsculas</label>
+                <input type="checkbox" id="maiuscula">
+            </div>
+            <div>
+                <label>Letras minúsculas</label>
+                <input type="checkbox" id="minuscula">
+            </div>
+            <div>
+                <label>Símbolos</label>
+                <input type="checkbox" id="simbolo">
+            </div>
+            <button type="submit" id="gerar">Gerar Senha</button>
+        </form>
+    </section>
+
+    <script src="./public/assets/js/bundle.js"></script>
+</body>
+
+</html>
